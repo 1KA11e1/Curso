@@ -12,3 +12,4 @@ C:\Curso\ProjetoAulas\obj\Debug\net6.0\refint\ProjetoAulas.dll
 C:\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.pdb
 C:\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.genruntimeconfig.cache
 C:\Curso\ProjetoAulas\obj\Debug\net6.0\ref\ProjetoAulas.dll
+C:\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.sourcelink.json
