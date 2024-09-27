@@ -31,10 +31,10 @@ const string descricao = "Curso CSHARP";
 
 Console.WriteLine(descricao);
 */
-using System.Collections;
+//using System.Collections;
 
-int numero1 = 1;
-var numero2 = 2;
+//int numero1 = 1;
+//var numero2 = 2;
 /*
 int soma = numero1 + numero2;
 Console.WriteLine(soma);
@@ -131,7 +131,7 @@ arrayList.Clear();
 foreach (var item in arrayList ){
     Console.WriteLine(item);
 }
-*/
+
 
 var arrayTipadoNumero = new int[3];
 arrayTipadoNumero[0] =5;
@@ -151,3 +151,26 @@ arrayTipadoString[1] = "Barata";
 foreach (var item in arrayTipadoString ){
     Console.WriteLine(item);
 }
+
+var lista = new List<string>(10)
+{"Alerrandro",
+ "Barata"};
+lista.Add("Alerrandro");
+lista.Add("Barata");
+lista.Add("curso");
+
+var nome = lista[0];
+Console.WriteLine(nome);
+lista.RemoveAt(1);
+
+foreach (var item in lista ){
+    Console.WriteLine(item);
+}
+*/
+var dicionario = new Dictionary<int, string>();
+dicionario.Add(100,"Alerrandro");
+dicionario.Add(2, "Barata");
+
+
+var nome = dicionario[100];
+Console.WriteLine(nome);
