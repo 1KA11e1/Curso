@@ -218,9 +218,9 @@ Console.WriteLine(nome1);
       //  Console.WriteLine(item);
     //}
     */
-    //modulo 7 - aula 1
+//modulo 7 - aula 1
 
-
+/*
 var diaDaSemana = 8;
 //var diaDeTrabalho = false;
 
@@ -233,20 +233,123 @@ var diaDaSemana = 8;
 //else{
    // Console.WriteLine("hoje não é segunda");
 //}
-if (diaDaSemana == 0 ){
- Console.WriteLine("Hoje é segunda");
-}else if( diaDaSemana == 1){
-    Console.WriteLine("Hoje é terça");
-}else if(diaDaSemana == 2){
-    Console.WriteLine("Hoje é quarta");
-}else if(diaDaSemana == 3){
-    Console.WriteLine("Hoje é quinta");
-}else if(diaDaSemana == 4){
-    Console.WriteLine("Hoje é sexta");
-}else if(diaDaSemana == 5){
-    Console.WriteLine("Hoje é sabado");
-}else if(diaDaSemana == 6){
-    Console.WriteLine("Hoje é Domingo");
-}else{
-    Console.WriteLine("hoje é feriado");
+//if (diaDaSemana == 0 ){
+// Console.WriteLine("Hoje é segunda");
+//}else if( diaDaSemana == 1){
+//    Console.WriteLine("Hoje é terça");
+//}else if(diaDaSemana == 2){
+//    Console.WriteLine("Hoje é quarta");
+//}else if(diaDaSemana == 3){
+//    Console.WriteLine("Hoje é quinta");
+//}else if(diaDaSemana == 4){
+//    Console.WriteLine("Hoje é sexta");
+//}else if(diaDaSemana == 5){
+//    Console.WriteLine("Hoje é sabado");
+//}else if(diaDaSemana == 6){
+//    Console.WriteLine("Hoje é Domingo");
+//}else{
+//    Console.WriteLine("hoje é feriado");
+//}
+*/
+/*var diaDaSemana = 7;
+switch (diaDaSemana)
+{
+ case 0: 
+ Console.WriteLine("hoje é domingo");
+ break;
+  case 1: 
+ Console.WriteLine("hoje é segunda");
+ break;
+  case 2: 
+ Console.WriteLine("hoje é terça");
+ break;
+  case 3: 
+ Console.WriteLine("hoje é quarta");
+ break;
+  case 4: 
+ Console.WriteLine("hoje é quinta");
+ break;
+  case 5: 
+ Console.WriteLine("hoje é sexta");
+ break;
+  case 6: 
+ Console.WriteLine("hoje é sabado");
+ break; 
+ default: Console.WriteLine("Hoje é feriado!");
+ break;
 }
+switch (diaDaSemana < 1)
+{
+    case true: 
+    Console.WriteLine("hoje é domingo");
+    break;
+    case false:
+    Console.WriteLine("hoje não é domingo");                                             //exemplo de cenario aonde o switch nao é recomendado
+    break;
+    default: Console.WriteLine("hoje nao tem trabalho, mas não é domingo");
+    break;
+}
+
+if (diaDaSemana < 1){
+    Console.WriteLine("hoje é domingo");
+}else if(diaDaSemana >= 1  && diaDaSemana <= 6){
+   Console.WriteLine("hoje não é domingo");                                               //forma mais recomendada
+}else{
+    Console.WriteLine("hoje nao tem trabalho, mas não é domingo");
+}
+
+var lista = new List<string>(){"Alerrandro", "Curso", "CSHARP"};
+var count = lista.Count;
+
+for (int i = 0; i < count; i++){
+    var nome = lista[i];
+    Console.WriteLine(nome);
+}
+
+
+var lista = new List<string>(){"Alerrandro", "Curso", "CSHARP"};
+/*
+foreach (var item in lista)
+{
+    Console.WriteLine(item);    
+}
+
+foreach (var letra in "Alerrandro")
+{
+    Console.WriteLine(letra);
+}
+
+using System.Diagnostics.Contracts;
+using Microsoft.VisualBasic;
+
+var i = 0;
+
+while (i < 5)
+{
+    if (i == 0)
+    {
+         Console.WriteLine("iniciando...");
+         i++;
+        continue;    
+    }
+    Console.WriteLine("var i = "+i);
+    i ++;
+    //i = i + 1;
+    //i +=  1;
+    if (i ==2)
+    {
+         Console.WriteLine("valor de i é igual a 2(dois)");
+        break;    
+    }
+    
+}
+//var j = 0;
+//do
+//{
+  //   Console.WriteLine( "var j = "+ j);
+    //j ++;
+//} while ( j < 10);
+*/
+
+//modulo 8 - POO(Programação orientada a objetos).
+
