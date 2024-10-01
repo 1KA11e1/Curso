@@ -166,12 +166,87 @@ lista.RemoveAt(1);
 foreach (var item in lista ){
     Console.WriteLine(item);
 }
-*/
-var dicionario = new Dictionary<int, string>();
-dicionario.Add(100,"Alerrandro");
-dicionario.Add(2, "Barata");
+
+var dicionario = new Dictionary<int, string>()
+{
+    {100, "Alerrandro"},
+    {2, "Barata"  },
+    {50, "Curso"},
+};
+
+dicionario[5] = "csharp";
+//dicionario.Add(100,"Alerrandro");
+//dicionario.Add(2, "Barata");
+//dicionario.Add(50, "Curso");
 
 
-var nome = dicionario[100];
+var nome = dicionario[5];
+//Console.WriteLine(nome);
+foreach (var item in dicionario ){
+    Console.WriteLine(item.Value);
+}
+
+using System.Collections;
+
+var queue = new Queue<string>();
+queue.Enqueue("Alerrandro");
+queue.Enqueue("Barata");
+
+//var nome = queue.Peek();
+//var nome1 = queue.Peek();
+
+var nome = queue.Dequeue();
+var nome1 = queue.Dequeue();
+
 Console.WriteLine(nome);
-aaa
+Console.WriteLine(nome1);
+
+
+//foreach (var item in queue){
+  //Console.WriteLine(item);
+//}
+
+var stack = new Stack<string>();
+stack.Push("Alerrandro");
+stack.Push("Barata");
+
+var nome = stack.Pop();
+var nome1 = stack.Pop();
+Console.WriteLine(nome);
+Console.WriteLine(nome1);
+    //foreach (var item in stack){
+      //  Console.WriteLine(item);
+    //}
+    */
+    //modulo 7 - aula 1
+
+
+var diaDaSemana = 8;
+//var diaDeTrabalho = false;
+
+//if (diaDaSemana == 0 && diaDeTrabalho == true){
+ //   Console.WriteLine("Hoje é segunda");
+//}
+//else if(diaDaSemana == 0 && diaDeTrabalho == false){
+   // Console.WriteLine("hoje é segunda mas não é dia de trabalho");
+//}
+//else{
+   // Console.WriteLine("hoje não é segunda");
+//}
+if (diaDaSemana == 0 ){
+ Console.WriteLine("Hoje é segunda");
+}else if( diaDaSemana == 1){
+    Console.WriteLine("Hoje é terça");
+}else if(diaDaSemana == 2){
+    Console.WriteLine("Hoje é quarta");
+}else if(diaDaSemana == 3){
+    Console.WriteLine("Hoje é quinta");
+}else if(diaDaSemana == 4){
+    Console.WriteLine("Hoje é sexta");
+}else if(diaDaSemana == 5){
+    Console.WriteLine("Hoje é sabado");
+}else if(diaDaSemana == 6){
+    Console.WriteLine("Hoje é Domingo");
+}else{
+    Console.WriteLine("hoje é feriado");
+}
